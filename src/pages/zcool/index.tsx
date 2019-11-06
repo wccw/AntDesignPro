@@ -3,6 +3,7 @@ import style from "./style.less";
 import Advertise from "./advertise";
 import Recommand from "../zcool/recommand";
 import Carousel from "../zcool/carousel";
+import Pagination from "../zcool/pagination";
 
 export default class ZCool extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class ZCool extends React.Component {
         <Carousel />
         <Advertise />
         <Recommand />
+        <Pagination />
       </div>
     );
   }
